@@ -1071,7 +1071,9 @@ td:first-child {
 	display: block;
 }
 
+
 #1css
+
 .login {
     background: #fff;
     border: 1px solid #eaeaea;
@@ -1094,6 +1096,8 @@ td:first-child {
 }
 
 #2css
+
+
 
 .login {
     background: #fff;
@@ -1148,6 +1152,7 @@ td:first-child {
     width: 300px;
     border-radius: 25px;
 }
+
 
 .products_list .title {
     margin: 20px auto;
@@ -2671,4 +2676,58 @@ td:first-child {
 
 .related-products a:hover .text {
 	display: block;
+=======
+.login {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 28em;
+    min-width: 500px;
+    margin: 100px auto;
+       
+    position: relative;
+    display: block;
+}
+
+.login .head {
+    margin: 15px auto;
+}
+
+.login .form-control[type="submit"] {
+    margin: 10px auto;
+}
+
+.login button {
+    border: 1px solid #eaeaea;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.login button.last {
+    margin-bottom: 25px;
+}
+
+.login button a, .login button a:hover {
+    border: 1px solid #eaeaea;
+    color: #555;
+    text-decoration: none;
+}
+
+.login form {
+    margin-bottom: 10px;
+}
+
+.login div.user_avatar {
+    position: fixed;
+    left: 175px;
+    top: 200px;
+}
+
+.user_avatar img {
+    width: 300px;
+    border-radius: 25px;
+
 }
