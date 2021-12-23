@@ -42,7 +42,7 @@ class TestMainappSmoke(TestCase):
         for product in Product.objects.all():
             response = self.client.get(f"/products/product/{product.pk}/")
             self.assertEqual(response.status_code, 200)
-    
+
 
 class ProductsTestCase(TestCase):
     def test_product_print(self):
